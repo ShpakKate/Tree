@@ -1,0 +1,30 @@
+как папки вложенные
+
+оно должно геренится из данных, но первую версию можешь просто сделать
+
+Create tree menu
+
+Use tree object in following format:
+const menu = [{
+	title: 'parent',
+	nodes: [{
+		title: 'child',
+		nodes: []
+		}, {
+		title: 'child2',
+		nodes: [{...}]
+		}],
+	title: 'parent1',
+	nodes: []
+	}];
+
+If node has nodes - user can click, and node open, if no user cant click and node should not open.
+
+
+чтобы открывались закрывались
+
+но вообще из данных. если нет детей - то все это типа лист, ее нельзяоткрыть закрыть
+
+если есть дети можно открывать закрывать
+
+1 фото вот закрытая версия
